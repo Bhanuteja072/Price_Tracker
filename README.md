@@ -41,14 +41,6 @@ Visit: `http://127.0.0.1:5000/`
 4. Admins can view all users in the **admin dashboard**.
 5. Users can **analyze price trends** using the analysis feature.
 
-## Folder Structure
-```
-project-root/
-│-- templates/        # HTML files
-│-- static/           # CSS, JS, images
-│-- app.py            # Main Flask application
-│-- README.md         # Project documentation
-```
 
 
 
