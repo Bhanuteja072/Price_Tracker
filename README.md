@@ -4,7 +4,7 @@ This is a Flask-based web application that tracks product prices from Amazon and
 ## Features
 - User authentication (registration & login)
 - Admin dashboard to view registered users
-- Track product prices from Amazon and Flipkart
+- Track product prices from Amazon ,Flipkart,Myntra,Meesho and Ajio
 - Receive email alerts when prices drop
 - Background scheduler to periodically check prices
 - Visual price trend analysis using Matplotlib
