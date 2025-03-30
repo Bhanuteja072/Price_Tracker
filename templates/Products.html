@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Product</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .button-group button {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 10px auto;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Select a Product</h2>
+    <form action="{{ url_for('analysis') }}" method="POST">
+        <button type="submit" name="button_id" value="1">Noise Buds</button>
+        <button type="submit" name="button_id" value="2">Boat Airdopes</button>
+        <button type="submit" name="button_id" value="3">OnePlus Buds</button>
+        <button type="submit" name="button_id" value="4">Realme Air</button>
+    </form>
+
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Product</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 400px;
+        }
+        h2 {
+            color: #333;
+        }
+        .button-group button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background: #007bff;
+            color: white;
+            transition: 0.3s;
+        }
+        .button-group button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Select a Product</h2>
+        <form action="{{ url_for('analysis') }}" method="POST" class="button-group">
+            <button type="submit" name="button_id" value="1">Noise Buds</button>
+            <button type="submit" name="button_id" value="2">Nokio</button>
+            <button type="submit" name="button_id" value="3">Moto</button>
+            <button type="submit" name="button_id" value="4">Boat Neckbands</button>
+        </form>
+    </div>
+</body>
+</html>
